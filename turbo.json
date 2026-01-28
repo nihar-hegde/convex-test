@@ -11,6 +11,18 @@
     },
     "lint": {
       "outputs": []
+    },
+    "ios": {
+      "cache": false,
+      "persistent": true
+    },
+    "android": {
+      "cache": false,
+      "persistent": true
+    },
+    "web": {
+      "cache": false,
+      "persistent": true
     }
   }
 }

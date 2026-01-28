@@ -8,8 +8,17 @@
   ],
   "scripts": {
     "dev": "turbo run dev",
+    "dev:web": "turbo run dev --filter=web",
+    "dev:mobile": "turbo run dev --filter=mobile",
     "build": "turbo run build",
-    "lint": "turbo run lint"
+    "build:web": "turbo run build --filter=web",
+    "build:mobile": "turbo run build --filter=mobile",
+    "mobile:ios": "turbo run ios --filter=mobile",
+    "mobile:android": "turbo run android --filter=mobile",
+    "mobile:web": "turbo run web --filter=mobile",
+    "lint": "turbo run lint",
+    "lint:web": "turbo run lint --filter=web",
+    "lint:mobile": "turbo run lint --filter=mobile"
   },
   "devDependencies": {
     "turbo": "^2.7.6",
