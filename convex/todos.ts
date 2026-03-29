@@ -16,7 +16,7 @@ export const addTodos = mutation({
       completed: false,
       createdAt: Date.now(),
       updatedAt: Date.now(),
-      userId: "anonymus",
+      userId: "anonymous",
     });
     return res;
   },
