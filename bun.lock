@@ -19,9 +19,9 @@
       "version": "1.0.0",
       "dependencies": {
         "@expo/vector-icons": "^15.1.1",
-        "@react-navigation/bottom-tabs": "^7.15.9",
+        "@react-navigation/bottom-tabs": "^7.15.5",
         "@react-navigation/elements": "^2.9.14",
-        "@react-navigation/native": "^7.2.2",
+        "@react-navigation/native": "^7.1.33",
         "convex": "^1.34.1",
         "expo": "^55.0.9",
         "expo-constants": "^55.0.9",
